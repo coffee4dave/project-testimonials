@@ -1,0 +1,87 @@
+:root {
+    --bgcolor: #455F87;
+    --bgcolor2: #E9EEF2;
+    --bgcolor3: #F28705;
+    --textcolor: black;
+    --color4: #B36404;
+    --btnbg: rgba(0, 0, 0, 0.3);
+}
+
+label {
+    color: white;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-color: var(--bgcolor);
+}
+
+#search-form {
+    margin: 2.5% auto;
+}
+
+
+#img-container {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 0.5rem black;
+    color: white;
+
+}
+
+
+#btn-right {
+    background-color: var(--btnbg);
+    height: 100%;
+    width: 5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* transform: translate(100%, -50%); */
+}
+
+#btn-left {
+    background-color: var(--btnbg);
+    height: 100%;
+    width: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+i {
+    font-size: 2rem;
+    padding: 0.25rem;
+}
+
+#btn-right i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+#btn-left i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+#attr {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 0.75rem;
+    background-color: var(--btnbg);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
