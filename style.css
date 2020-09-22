@@ -17,8 +17,11 @@ label {
     background-color: var(--bgcolor);
 }
 
-#search-form {
-    margin: 2.5% auto;
+#txt-container {
+    /* height: 20vh; */
+    padding: 0.5rem 0.5rem;
+
+
 }
 
 
@@ -27,7 +30,7 @@ label {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    /* height: 80vh; */
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
     border: solid 0.5rem black;

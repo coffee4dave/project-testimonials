@@ -3,7 +3,7 @@ const left = document.querySelector("#btn-left");
 const img = document.querySelector("#img-container");
 const attr = document.querySelector("#attr");
 const search = document.querySelector("#search");
-const searchform = document.querySelector("#search-form");
+
 
 
 
@@ -20,12 +20,7 @@ let searchterm = "funny animals";
 init(searchterm);
 
 
-searchform.addEventListener('submit', (e) => {
-    e.preventDefault();
-    searchterm = search.value;
-    init(searchterm);
-    search.value = '';
-});
+
 
 right.addEventListener("click", () => {
     increaseIndex();
